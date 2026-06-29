@@ -1,0 +1,33 @@
+canonical_identifier: bkk:krp/KR3ep064/jc/v1
+canonical_location: https://kanripo.org/bkk/KR3ep064/jc/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 臨診醫案
+  identifiers:
+    krp: KR3ep064
+  tags:
+    kr-categories: KR3ep
+  source:
+    repository: tls-texts
+    path: data/tls/KR3ep064.xml
+  edition:
+    short: jc
+assets:
+  parts:
+  - {seq: 0, filename: KR3ep064_000-jc.yaml, hash: 'sha256:f73178f564cd1785e6e4890165b3a29304d1e792ea21feae40eb71ebe3e64d7f'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR3ep064_000-jc.markers.yaml, hash: 'sha256:0887698be2a11c83055cafcf95e49346252b4c9dd9d289a7ce357e6f42e35bdc'}
+table_of_contents:
+- ref:
+    seq: 0
+    marker_id: KR3ep064_jc_000-d2.h1s1
+    span:
+    - body
+    - 0
+    - 42593
+  label: 正文
+  type: section
+  level: 1
+hash: sha256:1c9046a505df3655edbe3b08ffb44abbe40d09f7f491443bf40448a531384462
